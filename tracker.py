@@ -52,7 +52,8 @@ class AmazonAPI:
         options = get_chrome_options()
         set_ignore_certificate_error(options)
         set_browser_as_incognito(options)
-        self.driver = get_chrome_driver(options)    
+        self.driver = get_chrome_driver(options)
+           
         self.currency = currency
         self.price_filter = f"&rh=p_36%3A{filters['min']}00-{filters['max']}00"
 
@@ -117,7 +118,9 @@ class AmazonAPI:
     def get_price(self):
         price = None
         try:
-            price = self.driver.find_element_by_id('priceblock_saleprice').text
+            price = self.driver.find_element_by_id('priceblock_ourprice').text
+            if price == '':
+                price = self.driver.find_element_by_id('priceblock_dealprice')
             price = self.convert_price(price)
         except NoSuchElementException:
             try:
