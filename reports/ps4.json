@@ -1,0 +1,26 @@
+{
+  "title": "ps4",
+  "date": "05/08/2020 15:32:18",
+  "best_item": {
+    "asin": "B002XGICOK",
+    "url": "https://www.amazon.in/dp/B002XGICOK",
+    "title": "Assassin's Creed: Renaissance",
+    "seller": "Penguin",
+    "price": 199.05
+  },
+  "currency": "\u20b9",
+  "filters": {
+    "min": "100",
+    "max": "200"
+  },
+  "base_link": "https://www.amazon.in/",
+  "products": [
+    {
+      "asin": "B002XGICOK",
+      "url": "https://www.amazon.in/dp/B002XGICOK",
+      "title": "Assassin's Creed: Renaissance",
+      "seller": "Penguin",
+      "price": 199.05
+    }
+  ]
+}
