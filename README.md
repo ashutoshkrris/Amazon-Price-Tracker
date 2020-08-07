@@ -13,6 +13,5 @@ Then it will generate a JSON report having all the details containing the **pric
 
 Show some ♥ starring the repo if you liked the scraper.
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y320QYE)
 
 Thank You!
